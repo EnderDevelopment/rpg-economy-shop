@@ -1,0 +1,12 @@
+# EnderRP configuration
+# Starting money for new players.
+start-money: 100.0
+
+# Income system (rewards for playing time).
+income:
+  # How many minutes a player must be online to receive a reward.
+  interval-minutes: 5
+  # The amount of coins rewarded per interval.
+  reward: 50.0
+  # Maximum coins a player can earn per day from playing time.
+  daily-cap: 1000.0

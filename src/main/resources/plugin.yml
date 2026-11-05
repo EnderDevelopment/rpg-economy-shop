@@ -1,0 +1,21 @@
+name: EnderRP
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  money:
+    description: Shows your balance.
+    usage: /money
+  pay:
+    description: Pay another player money.
+    usage: /pay <player> <amount>
+  rp:
+    description: Set or clear your roleplay display name.
+    usage: /rp <name>
+  shop:
+    description: Open the Sun Shop.
+    usage: /shop
+  setmoney:
+    description: Set a player's balance. (Admin)
+    usage: /setmoney <player> <amount>
+    permission: enderrp.admin
